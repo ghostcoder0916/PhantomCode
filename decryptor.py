@@ -11,4 +11,7 @@ def decrypt_message(encoded_message):
 if __name__ == "__main__":
     # Hidden flag encoded in base64
     encoded_message = "U1RBUl9WRUVYZg=="  # Base64 for "STARR_VEEXf"
-    print(decrypt_message(encoded_message))
+    decrypted_message = decrypt_message(encoded_message)
+    
+    # Print the decrypted message (flag)
+    print(f"Decrypted message: {decrypted_message}")
