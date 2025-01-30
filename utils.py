@@ -12,3 +12,4 @@ def generate_hash(message):
 if __name__ == "__main__":
     message = "PhantomMessage"
     print(f"SHA256 Hash: {generate_hash(message)}")
+
